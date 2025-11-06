@@ -1,5 +1,5 @@
 // index.js
 import "./styles.css";
-import { greeting } from "./greeting.js";
+import { greeting } from "./home.js";
 
 console.log(greeting);
