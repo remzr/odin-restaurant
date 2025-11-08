@@ -10,13 +10,14 @@ export function loadAbout() {
 }
 
 //Create header
-const nav = document.createElement("header");
+const nav = document.createElement("div");
+nav.id = "header";
 
 nav.innerHTML = `
         <nav>
             <button id="navButtonHome" class="nav-button">Home</button>
             <button id="navButtonMenu" class="nav-button">Menu</button>
-            <button id="navButtonAbout" class="nav-button nav-active">About1</button>
+            <button id="navButtonAbout" class="nav-button nav-active">About</button>
         </nav>
     `;
 

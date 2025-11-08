@@ -13,7 +13,8 @@ export function loadHome() {
 import homeImage from "./img/dessert-1.jpg";
 
 //Create header
-const nav = document.createElement("header");
+const nav = document.createElement("div");
+nav.id = "header";
 
 nav.innerHTML = `
         <nav>

@@ -10,7 +10,8 @@ export function loadMenu() {
 }
 
 //Create header
-const nav = document.createElement("header");
+const nav = document.createElement("div");
+nav.id = "header";
 
 nav.innerHTML = `
         <nav>
@@ -34,7 +35,7 @@ content.innerHTML = `
             <p>Cake, but made with Nutella.</p>
             <br>
             <p><strong>Fondue</strong></p>
-            <p>Not a fondue, but its still on the menu. Don't ask why.</p>
+            <p>Not a dessert, but its still on the menu. Don't ask why.</p>
             <br>        
         </main>
 `;
