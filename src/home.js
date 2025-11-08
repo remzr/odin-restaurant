@@ -5,8 +5,8 @@ export function loadHome() {
     const bodyContent = document.getElementById("content");
 
     //Replace with new
-    headerContent.replaceWith(nav);
-    bodyContent.replaceWith(content);
+    headerContent?.replaceWith?.(nav);
+    bodyContent?.replaceWith?.(content);
 }
 
 //Import image
